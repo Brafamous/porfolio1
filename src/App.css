@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rd-container{
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.project-headline{
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 72px;
+  width: max-content;
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(121.57deg, rgb(255, 144, 0) 18.77%, rgb(137, 137, 138) 60.15%) repeat scroll 0% 0% padding-box text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: 58px 0px 16px;
+}
+
+.hr-short{
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0) linear-gradient(270deg, rgb(255, 144, 0) 0%, rgb(70, 69, 69) 100%) repeat scroll 0% 0%;
+}
+
+.horse-aside{
+  background-image: url('images/logo-aside.png');
+  background-position:top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+ /* border: 1px orange solid;*/
+}
+
+
+.bg-black{
+  background-color: #000;
+}
+
+.bg-theme{
+  background-color: #f90;
+}
+
+body{
+  background-color: #000;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+a.nav-link{
+  color:#f90;
+}
+p.description-p{
+  max-width: 800px;
+  font-size: 1.7em;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.side-background{
+  background-image: url("./images/logo.png");
+  height: 630px;
+}
+
+h2.greeting_headline{
+  font-weight: 800;
+  font-size: 4em;
+  line-height: 72px;
+  width: max-content;
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(121.57deg, rgb(255, 144, 0) 18.77%, rgb(202, 204, 204) 60.15%) repeat scroll 0% 0% padding-box text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: 58px 0px 16px;
+}
+
+
+@media screen and (max-width: 576px) {
+   br{
+     display: block; /* makes it have a width */
+     content: ""; /* clears default height */
+     margin: 0 10px; /* change this to whatever height you want it */
+   }
+    h2.greeting_headline{
+      font-size: 2em;
+      line-height: initial;
+     /*// height:7em;*/
+    }
+
+    .horse-aside{
+      display: none;
+      /* border: 1px orange solid;*/
+    }
+
+  p.description-p{
+    font-size: 1.2em;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  br{
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin: 0 10px; /* change this to whatever height you want it */
   }
-  to {
-    transform: rotate(360deg);
+  h2.greeting_headline{
+    font-size: 3em;
+    line-height: initial;
+    /*// height:7em;*/
   }
+
+  .p.description-p{
+    font-size: 1.4em;
+  }
+
+
+  .horse-aside{
+    display: none;
+  }
+
 }
