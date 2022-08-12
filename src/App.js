@@ -43,7 +43,7 @@ function App() {
                             </svg>
                         </a><a href="https://www.instagram.com/bob_cumulus"
                                className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
-                            <svg stroke="#fff" fill="#f90" stroke-width="0" viewBox="0 0 1024 1024"
+                            <svg stroke="#fff" fill="#fff" stroke-width="0" viewBox="0 0 1024 1024"
                                  height="2rem"
                                  width="2rem" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -51,7 +51,7 @@ function App() {
                             </svg>
                         </a><a href="https://www.linkedin.com/in/robert-doe/"
                                className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                            <svg stroke="currentColor" fill="#fff" stroke-width="0" viewBox="0 0 1024 1024"
                                  height="2rem"
                                  width="2rem" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -66,12 +66,12 @@ function App() {
             </div>
             <section>
                 <div className="container">
-                    <div className="row">
+                    <div className="row intro-box"> 
                         <div className="col-md-9">
                             <section className={'container'}>
                                 <h2 className={'greeting_headline'}>Hi there! <br/>I'm Robert Doe</h2>
                                 <div className="row">
-                                    <p className="col-md-9 description-p"> A software developer with a dense background in Web Security and Machine Learning research😎
+                                    <p className="col-md-9 description-p"> A software developer with a dense background in Web Security and Machine Learning research
                                     </p>
                                 </div>
                             </section>
@@ -87,6 +87,10 @@ function App() {
             </div>
             <section className="container projects">
                 <h2 className="project-headline">Projects</h2>
+                <div className="container">
+                    <div className="col-md-6 h-25 bg-theme"></div>
+                    <div className="col-md-6 h-25 bg-theme"></div>
+                </div>
             </section>
         </section>
     );
