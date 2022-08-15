@@ -294,7 +294,7 @@ function App() {
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Back-End</h4><p
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>Node,
-                                Php and Databases including Relational and Non-relational Firebase</p></div>
+                                Php and Databases including Relational and Non-relational (Firebase)</p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" stroke-width="0" version="1.1"
