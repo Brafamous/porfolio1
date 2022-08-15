@@ -143,7 +143,7 @@ function App() {
                                         <h5 className="card-title text-center">Projet Consult</h5>
                                         <hr className="hr"/>
                                         <p className="card-text text-justify">Using flutter and
-                                            Firebase, I created an application that serves a
+                                            Firebase, I created an application that serves as a
                                             guide to students writing their thesis. </p>
                                         <div className="d-flex justify-content-around">
                                             <span>Flutter</span><span>Firebase</span>
