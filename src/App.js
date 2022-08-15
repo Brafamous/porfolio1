@@ -175,6 +175,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            <div className="container">
+                <div className="hr-short"></div>
+            </div>
             <section className="container technologies">
                 <h2 className="project-headline greeting_headline">Technologies</h2>
                 <div className="container">
@@ -283,7 +286,7 @@ function App() {
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Front-End</h4><p
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>React.js,
-                                Next.js, and Angular</p></div>
+                                Next.js, and Bootstrap</p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" fill="#fff" stroke-width="0" version="1.1"
@@ -363,6 +366,52 @@ function App() {
                         </div>
                     </div>
                 </div>
+            </section>
+            <div className="container">
+                <div className="hr-short"></div>
+            </div>
+            <section className="container bio">
+                <h2 className="project-headline greeting_headline">Bio</h2>
+                <div className="container">
+                    <p className="description-p ">
+                        I'm a Software Developer: Mobile App Developer, Machine Learning engineer, and Fullstack Website Developer
+                    </p>
+                </div>
+            </section>
+            <div className="container">
+                <div className="hr-short"></div>
+            </div>
+            <section className="container accomplishments">
+                <h2 className="project-headline greeting_headline">Accomplishments</h2>
+                <div className="container">
+                    <p className="description-p ">
+                        I'm a Software Developer: Mobile App Developer, Machine Learning engineer, and Fullstack Website Developer
+                    </p>
+                </div>
+            </section>
+            <div className="container">
+                <div className="hr-short"></div>
+            </div>
+            <section className="container w-100">
+                <h2 className="project-headline greeting_headline">Github Lane</h2>
+                <div className="container">
+                    <p className="description-p ">
+                        Checkout my git towers here:<a href={'https://skyline.github.com/Robert-Doe/'} className={'text-theme'}>SkyLine</a>
+                    </p>
+                </div>
+            </section>
+            <hr/>
+            <section className="FooterStyles__FooterWrapper-sc-1o46trb-0 footer-section">
+                <ul className="FooterStyles__LinkList-sc-1o46trb-6 footer-ul">
+                    <div className="FooterStyles__LinkColumn-sc-1o46trb-7 footer-list-item"><h4
+                        className="FooterStyles__LinkTitle-sc-1o46trb-8 call-header">Call</h4><a href="tel:+233271302702"
+                                                                                            className="FooterStyles__LinkItem-sc-1o46trb-1 call-link">+233
+                        (271) 302-702</a></div>
+                    <div className="FooterStyles__LinkColumn-sc-1o46trb-7 footer-list-item"><h4
+                        className="FooterStyles__LinkTitle-sc-1o46trb-8 email-header">Email</h4><a
+                        href="mailto:robertdoe@codeden.org"
+                        className="FooterStyles__LinkItem-sc-1o46trb-1 email-link">robertdoe@codeden.org</a></div>
+                </ul>
             </section>
         </section>
     );

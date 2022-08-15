@@ -117,6 +117,82 @@
   background: rgb(9, 8, 8) none repeat scroll 0% 0%;
 }
 
+.footer-section{
+  width: calc(-96px + 100vw);
+  max-width: 1040px;
+  padding: 2rem 48px 40px;
+  margin: 1rem auto;
+  box-sizing: content-box;
+}
+
+.footer-ul{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(85px, 220px));
+  gap: 40px;
+  padding: 40px 0px 28px;
+}
+.footer-list-item{
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  width: 100%;
+}
+.call-header{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 16px;
+}
+
+.call-link {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 16px;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  left: 0px;
+}
+
+
+
+.email-header{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 16px;
+}
+
+.email-link {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 16px;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  left: 0px;
+}
+
+
+.social-links{
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.text-theme{
+
+  color: #f90;
+
+}
+
 .st0{fill: #020002
 }
 .st1{fill: #ffffff
