@@ -87,7 +87,7 @@
   background-position: right;
   background-size: contain;
   /*transform:rotate(359deg);*/
-  animation: rotation 2s ease-in infinite;
+  /*animation: rotation 2s ease-in infinite;*/
   background-blend-mode: multiply;
   /*animation: rotating 2s linear infinite;
   -webkit-animation: rotating 7s linear infinite;
@@ -164,9 +164,15 @@ h2.greeting_headline{
   .intro-box{
     background: none;
   }
-
+  .intro-box::before{
+    background: none;
+  }
 }
 @media screen and (max-width: 768px) {
+  .intro-box::before{
+    background: none;
+  }
+
   br{
     display: block; /* makes it have a width */
     content: ""; /* clears default height */
