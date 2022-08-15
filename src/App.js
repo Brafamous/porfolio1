@@ -1,12 +1,13 @@
 import './App.css';
 import logo from './images/logo.png';
+import project1Img from './images/project_1.png'
 
 function App() {
     return (
         <section className={'container-fluid'}>
             <div className="rd-container">
                 <nav className="navbar navbar-expand-lg navbar-dark">
-                    <a className="navbar-brand" href="#"><img src={logo} height={'50em'}/></a>
+                    <a className="ml-0 navbar-brand" href="#"><img src={logo} height={'60em'}/></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -32,9 +33,9 @@ function App() {
                             </ul>
 
                         </div>
-                        <div className=""><a 
-                                             href="https://github.com/Robert-Doe"
-                                             className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
+                        <div className=""><a
+                            href="https://github.com/Robert-Doe"
+                            className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                             <svg stroke="#f90" fill="white" stroke-width="0" viewBox="0 0 1024 1024"
                                  height="2rem"
                                  width="2rem" xmlns="http://www.w3.org/2000/svg">
@@ -66,12 +67,13 @@ function App() {
             </div>
             <section>
                 <div className="container">
-                    <div className="row intro-box"> 
+                    <div className="row intro-box">
                         <div className="col-md-9">
                             <section className={'container'}>
                                 <h2 className={'greeting_headline'}>Hi there! <br/>I'm Robert Doe</h2>
                                 <div className="row">
-                                    <p className="col-md-9 description-p"> A software developer with a dense background in Web Security and Machine Learning research
+                                    <p className="col-md-9 description-p"> A software developer with a dense background
+                                        in Web Security and Machine Learning research
                                     </p>
                                 </div>
                             </section>
@@ -88,8 +90,37 @@ function App() {
             <section className="container projects">
                 <h2 className="project-headline">Projects</h2>
                 <div className="container">
-                    <div className="col-md-6 h-25 bg-theme"></div>
-                    <div className="col-md-6 h-25 bg-theme"></div>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="container p-5">
+                                <div className="card bg-theme">
+                                    <img className="card-img-top" src={project1Img} alt="Card image cap"
+                                         height={'200px'}/>
+                                    <div className="card-body">
+                                        <h5 className="card-title text-center">University Course Scheduling</h5>
+                                        <hr className="hr"/>
+                                        <p className="card-text text-justify">Using React, Mongo DB and I designed a University
+                                            Course scheduling application with a custom algorithm to schedule sessions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="container p-5">
+                                <div className="card bg-theme">
+                                    <img className="card-img-top" src="https://codeden.org/logo.png"
+                                         alt="Card image cap" height={'200px'}/>
+                                    <div className="card-body">
+                                        <h5 className="card-title text-center">Card title</h5>
+                                        <hr className="hr"/>
+                                        <p className="card-text">Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </section>

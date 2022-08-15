@@ -9,8 +9,11 @@
   margin-right: 3%;
 }
 
-.h-25{
-  height: 200px;
+.card{
+  border: none;
+}
+.project-card{
+  height: 5em;
 }
 
 .project-headline{
@@ -103,6 +106,15 @@
 
 .bg-theme{
   background-color: #f90;
+  color: black;
+}
+
+.hr{
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  border: 0px none;
+  background: rgb(9, 8, 8) none repeat scroll 0% 0%;
 }
 
 body{
