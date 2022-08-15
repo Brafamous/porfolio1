@@ -381,17 +381,6 @@ function App() {
             <div className="container">
                 <div className="hr-short"></div>
             </div>
-            <section className="container accomplishments">
-                <h2 className="project-headline greeting_headline">Accomplishments</h2>
-                <div className="container">
-                    <p className="description-p ">
-                        I'm a Software Developer: Mobile App Developer, Machine Learning engineer, and Fullstack Website Developer
-                    </p>
-                </div>
-            </section>
-            <div className="container">
-                <div className="hr-short"></div>
-            </div>
             <section className="container w-100">
                 <h2 className="project-headline greeting_headline">Github Lane</h2>
                 <div className="container">
