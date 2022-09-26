@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b03acb4-4060-42d3-9e9e-00cf3df46362" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -43,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codeden.org" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -79,7 +80,10 @@
       <workItem from="1660027503677" duration="87000" />
       <workItem from="1660027596969" duration="1593000" />
       <workItem from="1660192785263" duration="28404000" />
-      <workItem from="1660538555494" duration="17158000" />
+      <workItem from="1660538555494" duration="18195000" />
+      <workItem from="1660674347823" duration="5063000" />
+      <workItem from="1662986096992" duration="6300000" />
+      <workItem from="1663102893426" duration="2261000" />
     </task>
     <servers />
   </component>
