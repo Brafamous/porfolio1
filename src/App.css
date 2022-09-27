@@ -297,6 +297,7 @@ p.description-p {
     line-height: 72px;
     width: max-content;
     max-width: 100%;
+    color: #f90;
    /* -webkit-text-fill-color: transparent;
     background: rgba(0, 0, 0, 0) linear-gradient(121.57deg, rgb(255, 144, 0) 18.77%, rgb(202, 204, 204) 60.15%) repeat scroll 0% 0% padding-box text;*/
     margin-bottom: 16px;

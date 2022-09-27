@@ -72,7 +72,7 @@ function App() {
                     <div className="row intro-box">
                         <div className="col-md-9">
                             <section className={'container'}>
-                                <h2 className={'project-headline'}>Hi there! <br/>I'm Robert Doe</h2>
+                                <h2 className={'greeting_headline'}>Hi there! <br/>I'm Robert Doe</h2>
                                 <div className="row">
                                     <p className="col-md-9 description-p"> A software developer with a dense background
                                         in Web Security and Machine Learning research
@@ -90,7 +90,7 @@ function App() {
                 <div className="hr-short"></div>
             </div>
             <section className="container projects">
-                <h2 className="project-headline">Projects</h2>
+                <h2 className="greeting_headline">Projects</h2>
                 <div className="rd-container">
                     <div className="row">
                         <div className="col-md-6">
@@ -180,7 +180,7 @@ function App() {
                 <div className="hr-short"></div>
             </div>
             <section className="container technologies">
-                <h2 className="project-headline">Technologies</h2>
+                <h2 className="greeting_headline">Technologies</h2>
                 <div className="container">
                     <p className="description-p ">
                         I've worked with a range of technologies, from web-apps to mobile-apps to machine-learning
@@ -287,7 +287,7 @@ function App() {
                 <div className="hr-short"></div>
             </div>
             <section className="container bio">
-                <h2 className="project-headline">Bio</h2>
+                <h2 className="greeting_headline">Bio</h2>
                 <div className="container">
                     <p className="description-p ">
                         I'm a Software Developer: Mobile App Developer, Machine Learning engineer, and Fullstack Website
@@ -299,7 +299,7 @@ function App() {
                 <div className="hr-short"></div>
             </div>
             <section className="container w-100">
-                <h2 className="project-headline">Github Lane</h2>
+                <h2 className="greeting_headline">Github Lane</h2>
                 <div className="container">
                     <p className="description-p ">
                         Checkout my git towers here:<a href={'https://skyline.github.com/Robert-Doe/2022'}
