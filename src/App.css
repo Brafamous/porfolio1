@@ -292,14 +292,14 @@ p.description-p {
     height: 630px;
 }
 
-h2.greeting_headline {
-    font-weight: 800;
+.greeting_headline {
+    font-weight: 900;
     font-size: 4em;
     line-height: 72px;
     width: max-content;
     max-width: 100%;
-    background: rgba(0, 0, 0, 0) linear-gradient(121.57deg, rgb(255, 144, 0) 18.77%, rgb(202, 204, 204) 60.15%) repeat scroll 0% 0% padding-box text;
-    -webkit-text-fill-color: transparent;
+   /* -webkit-text-fill-color: transparent;
+    background: rgba(0, 0, 0, 0) linear-gradient(121.57deg, rgb(255, 144, 0) 18.77%, rgb(202, 204, 204) 60.15%) repeat scroll 0% 0% padding-box text;*/
     margin-bottom: 16px;
     padding: 58px 0px 16px;
 }
@@ -332,9 +332,9 @@ h2.greeting_headline {
         font-size: 1.2em;
     }
 
-    .intro-box {
+   /* .intro-box {
         background: none;
-    }
+    }*/
 
     .intro-box::before {
         background: none;
