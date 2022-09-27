@@ -5,6 +5,7 @@ import project2Img from './images/project_2.png'
 import project3Img from './images/project_3.png'
 import project4Img from './images/project_4.png'
 import project5Img from './images/project_5.png'
+import project6Img from './images/project_6.jpg'
 
 function App() {
     return (
@@ -63,9 +64,6 @@ function App() {
                         </svg>
                     </a></div>
                 </div>
-                {/* <ul className="navbar-nav">
-
-                    </ul>*/}
             </nav>
             <section>
                 <div className="container">
@@ -94,6 +92,53 @@ function App() {
                 <div className="rd-container">
                     <div className="row">
                         <div className="col-md-6">
+                            <a href="https://cariscaacademy.org/about-us/" className={'text-decoration-none'}>
+                                <div className="container py-5">
+                                    <div className="container py-5">
+                                        <div className="card bg-theme">
+                                            <img className="card-img-top" src={project5Img} alt="Card image cap"
+                                                 height={'200px'}/>
+                                            <div className="card-body">
+                                                <h5 className="card-title text-center">CARISCA Academy</h5>
+                                                <hr className="hr"/>
+                                                <p className="card-text text-justify">Part of the developer group
+                                                    working on this EdTech platform to educate stakeholders in the supply chain of Africa</p>
+                                                <div className="d-flex justify-content-around">
+                                                    <span>Laravel</span>{/*<span>Mongo DB</span>*/}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="col-md-6">
+                            <a href="https://www.codeden.org" className={'text-decoration-none'}>
+                                <div className="container py-5">
+                                    <div className="container py-5">
+                                        <div className="card bg-theme">
+                                            <img className="card-img-top" src={project2Img} alt="Card image cap"
+                                                 height={'200px'}/>
+                                            <div className="card-body">
+                                                <h5 className="card-title text-center">Code Den Inc.</h5>
+                                                <hr className="hr"/>
+                                                <p className="card-text text-justify">Using React, Mongo DB, I am
+                                                    currently
+                                                    working on an EdTech platform to help the youth of Africa learn to
+                                                    Code
+                                                    without having to pay a penny.</p>
+                                                <div className="d-flex justify-content-around">
+                                                    <span>React</span><span>Mongo DB</span><span>Node</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
                             <div className="container py-5">
                                 <div className="container py-5">
                                     <div className="card bg-theme">
@@ -115,63 +160,87 @@ function App() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="container py-5">  <div className="container py-5">
-                                <div className="card bg-theme">
-                                    <img className="card-img-top" src={project2Img} alt="Card image cap"
-                                         height={'200px'}/>
-                                    <div className="card-body">
-                                        <h5 className="card-title text-center">Code Den Inc.</h5>
-                                        <hr className="hr"/>
-                                        <p className="card-text text-justify">Using React, Mongo DB, I am currently
-                                            working on an EdTech platform to help the youth of Africa learn to Code
-                                            without having to pay a penny.</p>
-                                        <div className="d-flex justify-content-around">
-                                            <span>React</span><span>Mongo DB</span><span>Node</span>
+                            <div className="container py-5">
+                                <div className="container py-5">
+                                    <div className="card bg-theme">
+                                        <img className="card-img-top" src={project4Img} alt="Card image cap"
+                                             height={'200px'}/>
+                                        <div className="card-body">
+                                            <h5 className="card-title text-center">Retail Xpresso</h5>
+                                            <hr className="hr"/>
+                                            <p className="card-text text-justify">I put together a
+                                                portable application to help retail shop owners do their daily
+                                                accounting
+                                                after a hard day's work. This was way back 2020</p>
+                                            <div className="d-flex justify-content-around">
+                                                <span>Java</span><span>XML</span><span>Room</span>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
-                            </div></div>
+                            </div>
                         </div>
+
                     </div>
                     <div className="row">
                         <div className="col-md-6">
-                            <div className="container py-5"> <div className="container py-5">
-                                <div className="card bg-theme">
-                                    <img className="card-img-top" src={project3Img}
-                                         alt="Card image cap"
-                                         height={'200px'}/>
-                                    <div className="card-body">
-                                        <h5 className="card-title text-center">Projet Consult</h5>
-                                        <hr className="hr"/>
-                                        <p className="card-text text-justify">Using flutter and
-                                            Firebase, I created an application that serves as a
-                                            guide to students writing their thesis. </p>
-                                        <div className="d-flex justify-content-around">
-                                            <span>Flutter</span><span>Firebase</span>
+                             <div className="container py-5">
+                                <div className="container py-5">
+                                    <div className="card bg-theme">
+                                        <img className="card-img-top" src={project3Img}
+                                             alt="Card image cap"
+                                             height={'200px'}/>
+                                        <div className="card-body">
+                                            <h5 className="card-title text-center">Projet Consult</h5>
+                                            <hr className="hr"/>
+                                            <p className="card-text text-justify">Using flutter and
+                                                Firebase, I created an application that serves as a
+                                                guide to students writing their thesis. </p>
+                                            <div className="d-flex justify-content-around">
+                                                <span>Flutter</span><span>Firebase</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div></div>
+                            </div>
+                            {/*<div className="container py-5">
+                                <div className="container py-5">
+                                    <div className="card bg-theme">
+                                        <img className="card-img-top" src={project1Img} alt="Card image cap"
+                                             height={'200px'}/>
+                                        <div className="card-body">
+                                            <h5 className="card-title text-center">University Course Scheduling</h5>
+                                            <hr className="hr"/>
+                                            <p className="card-text text-justify">Using React, Mongo DB and I designed a
+                                                University
+                                                Course scheduling application with a custom algorithm to schedule
+                                                sessions</p>
+                                            <div className="d-flex justify-content-around">
+                                                <span>React</span><span>Mongo DB</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>*/}
                         </div>
-
                         <div className="col-md-6">
-                            <div className="container py-5">  <div className="container py-5">
-                                <div className="card bg-theme">
-                                    <img className="card-img-top" src={project4Img} alt="Card image cap"
-                                         height={'200px'}/>
-                                    <div className="card-body">
-                                        <h5 className="card-title text-center">Retail Xpresso</h5>
-                                        <hr className="hr"/>
-                                        <p className="card-text text-justify">I put together a
-                                            portable application to help retail shop owners do their daily accounting
-                                            after a hard day's work</p>
-                                        <div className="d-flex justify-content-around">
-                                            <span>Java</span><span>XML</span><span>Room</span>
+                            <div className="container py-5">
+                                <div className="container py-5">
+                                    <div className="card bg-theme">
+                                        <img className="card-img-top" src={project6Img} alt="Card image cap"
+                                             height={'200px'}/>
+                                        <div className="card-body">
+                                            <h5 className="card-title text-center">Anti-stegan Text Encryption</h5>
+                                            <hr className="hr"/>
+                                            <p className="card-text text-justify">Using the RGB color fxn, I developed a model to enhance web transfers easy with an anti-stegan touch </p>
+                                            <div className="d-flex justify-content-around">
+                                                <span>JS Canvas</span><span>Python</span>
+                                            </div>
                                         </div>
-
                                     </div>
                                 </div>
-                            </div></div>
+                            </div>
                         </div>
                     </div>
                 </div>
