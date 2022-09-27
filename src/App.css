@@ -58,11 +58,10 @@
 .project-headline {
     font-weight: 800;
     font-size: 65px;
+    color:#f90;
     line-height: 72px;
     width: max-content;
     max-width: 100%;
-    background: rgba(0, 0, 0, 0) linear-gradient(121.57deg, rgb(255, 144, 0) 18.77%, rgb(137, 137, 138) 60.15%) repeat scroll 0% 0% padding-box text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
     padding: 58px 0px 16px;
 }
