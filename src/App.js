@@ -22,17 +22,14 @@ function App() {
                      id="navbarSupportedContent">
                     <div className="flex-grow-1">
                         <ul className="navbar-nav justify-content-center">
-                            <li className="nav-item active">
-                                <a className="nav-link" href="#">Projects <span className="sr-only">(current)</span></a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#projects">Projects <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Technologies</a>
+                                <a className="nav-link" href="#technologies">Technologies</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link">Me</a>
-                            </li>
-                            <li className="nav-item">
-
+                                <a className="nav-link" href={'#me'}>Me</a>
                             </li>
                         </ul>
 
@@ -87,7 +84,7 @@ function App() {
             <div className="container">
                 <div className="hr-short"></div>
             </div>
-            <section className="container projects">
+            <section className="container projects" id={'projects'}>
                 <h2 className="greeting_headline">Projects</h2>
                 <div className="rd-container">
                     <div className="row">
@@ -139,27 +136,31 @@ function App() {
                     </div>
                     <div className="row">
                         <div className="col-md-6">
-                            <div className="container py-5">
+                            <a href="https://www.github.com/Robert-Doe/scheduler" className={'text-decoration-none'}>
                                 <div className="container py-5">
-                                    <div className="card bg-theme">
-                                        <img className="card-img-top" src={project1Img} alt="Card image cap"
-                                             height={'200px'}/>
-                                        <div className="card-body">
-                                            <h5 className="card-title text-center">University Course Scheduling</h5>
-                                            <hr className="hr"/>
-                                            <p className="card-text text-justify">Using React, Mongo DB and I designed a
-                                                University
-                                                Course scheduling application with a custom algorithm to schedule
-                                                sessions</p>
-                                            <div className="d-flex justify-content-around">
-                                                <span>React</span><span>Mongo DB</span>
+                                    <div className="container py-5">
+                                        <div className="card bg-theme">
+                                            <img className="card-img-top" src={project1Img} alt="Card image cap"
+                                                 height={'200px'}/>
+                                            <div className="card-body">
+                                                <h5 className="card-title text-center">University Course Scheduling</h5>
+                                                <hr className="hr"/>
+                                                <p className="card-text text-justify">Using React, Mongo DB and I designed a
+                                                    University
+                                                    Course scheduling application with a custom algorithm to schedule
+                                                    sessions</p>
+                                                <div className="d-flex justify-content-around">
+                                                    <span>React</span><span>Mongo DB</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+
                         </div>
                         <div className="col-md-6">
+                            <a href="https://www.github.com/Robert-Doe/Retail-Xpresso" className={'text-decoration-none'}>
                             <div className="container py-5">
                                 <div className="container py-5">
                                     <div className="card bg-theme">
@@ -180,6 +181,7 @@ function App() {
                                     </div>
                                 </div>
                             </div>
+                            </a>
                         </div>
 
                     </div>
@@ -195,7 +197,7 @@ function App() {
                                             <h5 className="card-title text-center">Projet Consult</h5>
                                             <hr className="hr"/>
                                             <p className="card-text text-justify">Using flutter and
-                                                Firebase, I created an application that serves as a
+                                                Firebase, I am creating an application that serves as a
                                                 guide to students writing their thesis. </p>
                                             <div className="d-flex justify-content-around">
                                                 <span>Flutter</span><span>Firebase</span>
@@ -225,22 +227,25 @@ function App() {
                             </div>*/}
                         </div>
                         <div className="col-md-6">
-                            <div className="container py-5">
+                            <a href="https://github.com/Robert-Doe/anti-stegan-crypto.git" className={'text-decoration-none'}>
                                 <div className="container py-5">
-                                    <div className="card bg-theme">
-                                        <img className="card-img-top" src={project6Img} alt="Card image cap"
-                                             height={'200px'}/>
-                                        <div className="card-body">
-                                            <h5 className="card-title text-center">Anti-stegan Text Encryption</h5>
-                                            <hr className="hr"/>
-                                            <p className="card-text text-justify">Using the RGB color fxn, I developed a model to enhance web transfers easy with an anti-stegan touch </p>
-                                            <div className="d-flex justify-content-around">
-                                                <span>JS Canvas</span><span>Python</span>
+                                    <div className="container py-5">
+                                        <div className="card bg-theme">
+                                            <img className="card-img-top" src={project6Img} alt="Card image cap"
+                                                 height={'200px'}/>
+                                            <div className="card-body">
+                                                <h5 className="card-title text-center">Anti-stegan Text Encryption</h5>
+                                                <hr className="hr"/>
+                                                <p className="card-text text-justify">Using the RGB color fxn, I developed a model to enhance web transfers easy with an anti-stegan touch </p>
+                                                <div className="d-flex justify-content-around">
+                                                    <span>JS Canvas</span><span>Python</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -248,7 +253,7 @@ function App() {
             <div className="container">
                 <div className="hr-short"></div>
             </div>
-            <section className="container technologies">
+            <section className="container technologies" id={'technologies'}>
                 <h2 className="greeting_headline">Technologies</h2>
                 <div className="container">
                     <p className="description-p ">
@@ -355,7 +360,7 @@ function App() {
             <div className="container">
                 <div className="hr-short"></div>
             </div>
-            <section className="container bio">
+            <section className="container bio" id={'me'}>
                 <h2 className="greeting_headline">Bio</h2>
                 <div className="container">
                     <p className="description-p ">
@@ -368,11 +373,13 @@ function App() {
                 <div className="hr-short"></div>
             </div>
             <section className="container w-100">
-                <h2 className="greeting_headline">Github Lane</h2>
+                <h2 className="greeting_headline">GitHub Lane</h2>
                 <div className="container">
                     <p className="description-p ">
-                        Checkout my git towers here:<a href={'https://skyline.github.com/Robert-Doe/2022'}
-                                                       className={'text-theme'}>SkyLine</a>
+                        Checkout my git towers here : <a href={'https://skyline.github.com/Robert-Doe/2022'}
+                                                       className={'text-theme text-decoration-none'}>SkyLine</a><br/>
+                        My GitHub Profile : <a href={'https://github.com/Robert-Doe'}
+                                               className={'text-theme text-decoration-none'}>Profile</a>
                     </p>
                 </div>
             </section>
