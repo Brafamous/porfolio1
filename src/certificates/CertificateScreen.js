@@ -79,7 +79,7 @@ function CertificateScreen(){
                                                        data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal8" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert9} className={'w-100'}/>
@@ -97,7 +97,7 @@ function CertificateScreen(){
                                                         data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal6" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert7} className={'w-100'}/>
@@ -115,7 +115,7 @@ function CertificateScreen(){
                                                        data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal11" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert11} className={'w-100'}/>
@@ -133,7 +133,7 @@ function CertificateScreen(){
                                                        data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal9" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert10} className={'w-100'}/>
@@ -151,7 +151,7 @@ function CertificateScreen(){
                                                    data-whatever="@mdo"/>
                             <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                  aria-hidden="true">
-                                <div className="modal-dialog">
+                                <div className="modal-dialog modal-lg">
                                     <div className="modal-content">
                                         <div className="modal-body">
                                             <img src={cert2} className={'w-100'}/>
@@ -169,7 +169,7 @@ function CertificateScreen(){
                                                    data-whatever="@mdo"/>
                             <div className="modal fade" id="exampleModal4" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                  aria-hidden="true">
-                                <div className="modal-dialog">
+                                <div className="modal-dialog modal-lg">
                                     <div className="modal-content">
                                         <div className="modal-body">
                                             <img src={cert4} className={'w-100'}/>
@@ -187,7 +187,7 @@ function CertificateScreen(){
                                                        data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert3} className={'w-100'}/>
@@ -205,7 +205,7 @@ function CertificateScreen(){
                                                       data-whatever="@mdo"/>
                                 <div className="modal fade" style={{width:"100vw"}} id="exampleModal10" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert3} className={'w-100'}/>
@@ -223,7 +223,7 @@ function CertificateScreen(){
                                                        data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal5" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert5} className={'w-100'}/>
@@ -241,7 +241,7 @@ function CertificateScreen(){
                                                         data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal7" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert8} className={'w-100'}/>
@@ -259,7 +259,7 @@ function CertificateScreen(){
                                                        data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog">
+                                    <div className="modal-dialog modal-lg">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert1} className={'w-100'}/>
