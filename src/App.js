@@ -10,6 +10,8 @@ import React from "react";
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import CertificateScreen from './certificates/CertificateScreen'
+import DataCareTransportScreen from './project_details/DataCareTransportScreen';
+
 
 function HomeScreen(){
     return (
@@ -100,7 +102,7 @@ function HomeScreen(){
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card bg-theme">
-                                            <img className="card-img-top" src={project5Img} alt="Card image cap"
+                                            <img className="card-img-top" src={project5Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
                                                 <h5 className="card-title text-center">CARISCA Academy</h5>
@@ -121,7 +123,7 @@ function HomeScreen(){
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card bg-theme">
-                                            <img className="card-img-top" src={project2Img} alt="Card image cap"
+                                            <img className="card-img-top" src={project2Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
                                                 <h5 className="card-title text-center">Code Den Inc.</h5>
@@ -147,7 +149,7 @@ function HomeScreen(){
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card bg-theme">
-                                            <img className="card-img-top" src={project1Img} alt="Card image cap"
+                                            <img className="card-img-top" src={project1Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
                                                 <h5 className="card-title text-center">University Course Scheduling</h5>
@@ -171,7 +173,7 @@ function HomeScreen(){
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card bg-theme">
-                                            <img className="card-img-top" src={project4Img} alt="Card image cap"
+                                            <img className="card-img-top" src={project4Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
                                                 <h5 className="card-title text-center">Retail Xpresso</h5>
@@ -198,7 +200,7 @@ function HomeScreen(){
                                 <div className="container py-5">
                                     <div className="card bg-theme">
                                         <img className="card-img-top" src={project3Img}
-                                             alt="Card image cap"
+                                             alt=""
                                              height={'200px'}/>
                                         <div className="card-body">
                                             <h5 className="card-title text-center">Projet Consult</h5>
@@ -216,7 +218,7 @@ function HomeScreen(){
                             {/*<div className="container py-5">
                                 <div className="container py-5">
                                     <div className="card bg-theme">
-                                        <img className="card-img-top" src={project1Img} alt="Card image cap"
+                                        <img className="card-img-top" src={project1Img} alt=""
                                              height={'200px'}/>
                                         <div className="card-body">
                                             <h5 className="card-title text-center">University Course Scheduling</h5>
@@ -238,7 +240,7 @@ function HomeScreen(){
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card bg-theme">
-                                            <img className="card-img-top" src={project6Img} alt="Card image cap"
+                                            <img className="card-img-top" src={project6Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
                                                 <h5 className="card-title text-center">Anti-stegan Text Encryption</h5>
@@ -416,6 +418,7 @@ function App() {
             <Routes>
                 <Route path='/' exact element={<HomeScreen/>}/>
                 <Route path='/certs' exact element={<CertificateScreen/>}></Route>
+                <Route path='/data-care-transport-project' exact element={<DataCareTransportScreen/>}></Route>
             </Routes>
         </Router>
     );

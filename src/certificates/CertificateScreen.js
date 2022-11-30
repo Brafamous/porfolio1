@@ -1,5 +1,8 @@
 import React from "react";
 import logo from '../images/logo.png'
+import cert0 from  './cert_0.png';
+import cert01 from  './cert_01.png';
+import cert02 from  './cert_02.png';
 import cert1 from  './cert_1.png';
 import cert2 from  './cert_2.jpg';
 import cert3 from  './cert_3.jpg';
@@ -74,6 +77,60 @@ function CertificateScreen(){
                 <h3 className={'text-bold text-light'}>Certificates</h3>
                 <div className="container">
                     <div className="row">
+                        <div className="col-md-3">
+                            <div className="p-3"> <img src={cert01} className={'w-100'} type="button" data-toggle="modal" data-target="#exampleModal01"
+                                                       data-whatever="@mdo"/>
+                                <div className="modal fade" id="exampleModal01" tabIndex="-1" aria-labelledby="exampleModalLabel"
+                                     aria-hidden="true">
+                                    <div className="modal-dialog modal-lg">
+                                        <div className="modal-content">
+                                            <div className="modal-body">
+                                                <img src={cert01} className={'w-100'}/>
+                                            </div>
+                                            <div className="modal-footer w-100">
+                                                <h6 className={'m-auto text-bold'}>Keeping Yourself Safe Online (Baobab)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="p-3"> <img src={cert0} className={'w-100'} type="button" data-toggle="modal" data-target="#exampleModal0"
+                                                       data-whatever="@mdo"/>
+                                <div className="modal fade" id="exampleModal0" tabIndex="-1" aria-labelledby="exampleModalLabel"
+                                     aria-hidden="true">
+                                    <div className="modal-dialog modal-lg">
+                                        <div className="modal-content">
+                                            <div className="modal-body">
+                                                <img src={cert0} className={'w-100'}/>
+                                            </div>
+                                            <div className="modal-footer w-100">
+                                                <h6 className={'m-auto text-bold'}>Interviewing Skills (Baobab)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="p-3"> <img src={cert02} className={'w-100'} type="button" data-toggle="modal" data-target="#exampleModal02"
+                                                       data-whatever="@mdo"/>
+                                <div className="modal fade" id="exampleModal02" tabIndex="-1" aria-labelledby="exampleModalLabel"
+                                     aria-hidden="true">
+                                    <div className="modal-dialog modal-lg">
+                                        <div className="modal-content">
+                                            <div className="modal-body">
+                                                <img src={cert02} className={'w-100'}/>
+                                            </div>
+                                            <div className="modal-footer w-100">
+                                                <h6 className={'m-auto text-bold'}>What is transformative Leadership? (Baobab)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-md-3">
                             <div className="p-3"> <img src={cert9} className={'w-100'} type="button" data-toggle="modal" data-target="#exampleModal8"
                                                        data-whatever="@mdo"/>
@@ -259,7 +316,7 @@ function CertificateScreen(){
                                                        data-whatever="@mdo"/>
                                 <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel"
                                      aria-hidden="true">
-                                    <div className="modal-dialog modal-lg">
+                                    <div className="modal-dialog modal-lgpro">
                                         <div className="modal-content">
                                             <div className="modal-body">
                                                 <img src={cert1} className={'w-100'}/>

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9b03acb4-4060-42d3-9e9e-00cf3df46362" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/certificates/CertificateScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/certificates/CertificateScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/certificates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/project_details" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
@@ -49,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\src\project_details" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\src\certificates" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\src\images" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\portfolio\public" />
@@ -87,6 +91,9 @@
       <workItem from="1664300855393" duration="666000" />
       <workItem from="1665395986442" duration="3920000" />
       <workItem from="1665834067212" duration="13041000" />
+      <workItem from="1665903450104" duration="729000" />
+      <workItem from="1667233249821" duration="6423000" />
+      <workItem from="1669838881969" duration="743000" />
     </task>
     <servers />
   </component>

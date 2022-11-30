@@ -306,6 +306,10 @@ p.description-p {
 
 
 @media screen and (max-width: 576px) {
+    .project-heading-h3{
+        font-size: 1.3em;
+    }
+
     .rd-container {
         padding: 0;
         margin: 0;
