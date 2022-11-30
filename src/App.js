@@ -1,5 +1,6 @@
 import './App.css';
 import logo from './images/logo.png';
+import project0Img from './images/project_0.png'
 import project1Img from './images/project_1.png'
 import project2Img from './images/project_2.png'
 import project3Img from './images/project_3.png'
@@ -98,17 +99,38 @@ function HomeScreen(){
                 <div className="rd-container">
                     <div className="row">
                         <div className="col-md-6">
+                            <a href="https://aiveslab.org" className={'text-decoration-none'}>
+                                <div className="container py-5">
+                                    <div className="container py-5">
+                                        <div className="card card-bg-theme">
+                                            <img className="card-img-top" src={project0Img} alt=""
+                                                 height={'200px'}/>
+                                            <div className="card-body">
+                                                <h5 className="card-title text-center">AivesLAB Foundation</h5>
+                                                <hr className="hr"/>
+                                                <p className="card-text text-justify">Working on a project with the goal of African Educational Info-Systems <strong>free</strong> for all
+                                                <br/><br/></p>
+                                                <div className="d-flex justify-content-around">
+                                                    <span>Laravel</span>{/*<span>Mongo DB</span>*/}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="col-md-6">
                             <a href="https://cariscaacademy.org/about-us/" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
-                                        <div className="card bg-theme">
+                                        <div className="card card-bg-theme">
                                             <img className="card-img-top" src={project5Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
                                                 <h5 className="card-title text-center">CARISCA Academy</h5>
                                                 <hr className="hr"/>
                                                 <p className="card-text text-justify">Part of the developer group
-                                                    working on this EdTech platform to educate stakeholders in the supply chain of Africa</p>
+                                                    working on this EdTech platform to educate stakeholders in the supply chain of Africa &nbsp; &nbsp; (KNUST - ASU - USAID)</p>
                                                 <div className="d-flex justify-content-around">
                                                     <span>Laravel</span>{/*<span>Mongo DB</span>*/}
                                                 </div>
@@ -122,7 +144,7 @@ function HomeScreen(){
                             <a href="https://www.codeden.org" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
-                                        <div className="card bg-theme">
+                                        <div className="card card-bg-theme">
                                             <img className="card-img-top" src={project2Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
@@ -142,13 +164,13 @@ function HomeScreen(){
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div className="row">
+                  {/*  </div>*/}
+                   {/* <div className="row">*/}
                         <div className="col-md-6">
                             <a href="https://www.github.com/Robert-Doe/scheduler" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
-                                        <div className="card bg-theme">
+                                        <div className="card card-bg-theme">
                                             <img className="card-img-top" src={project1Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
@@ -172,7 +194,7 @@ function HomeScreen(){
                             <a href="https://www.github.com/Robert-Doe/Retail-Xpresso" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
-                                        <div className="card bg-theme">
+                                        <div className="card card-bg-theme">
                                             <img className="card-img-top" src={project4Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
@@ -193,12 +215,12 @@ function HomeScreen(){
                             </a>
                         </div>
 
-                    </div>
-                    <div className="row">
+                 {/*   </div>
+                    <div className="row">*/}
                         <div className="col-md-6">
                             <div className="container py-5">
                                 <div className="container py-5">
-                                    <div className="card bg-theme">
+                                    <div className="card card-bg-theme">
                                         <img className="card-img-top" src={project3Img}
                                              alt=""
                                              height={'200px'}/>
@@ -217,7 +239,7 @@ function HomeScreen(){
                             </div>
                             {/*<div className="container py-5">
                                 <div className="container py-5">
-                                    <div className="card bg-theme">
+                                    <div className="card card-bg-theme">
                                         <img className="card-img-top" src={project1Img} alt=""
                                              height={'200px'}/>
                                         <div className="card-body">
@@ -239,7 +261,7 @@ function HomeScreen(){
                             <a href="https://github.com/Robert-Doe/anti-stegan-crypto.git" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
-                                        <div className="card bg-theme">
+                                        <div className="card card-bg-theme">
                                             <img className="card-img-top" src={project6Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">

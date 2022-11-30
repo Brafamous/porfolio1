@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/certificates/CertificateScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/certificates/CertificateScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <workItem from="1665834067212" duration="13041000" />
       <workItem from="1665903450104" duration="729000" />
       <workItem from="1667233249821" duration="6423000" />
-      <workItem from="1669838881969" duration="743000" />
+      <workItem from="1669838881969" duration="3201000" />
     </task>
     <servers />
   </component>
