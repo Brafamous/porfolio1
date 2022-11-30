@@ -108,7 +108,7 @@ function HomeScreen(){
                                             <div className="card-body">
                                                 <h5 className="card-title text-center">AivesLAB Foundation</h5>
                                                 <hr className="hr"/>
-                                                <p className="card-text text-justify">Working on a project with the goal of African Educational Info-Systems <strong>free</strong> for all
+                                                <p className="card-text text-justify">Working on a project with the goal of making African Educational Info-Systems <strong>free</strong> for all
                                                 <br/><br/></p>
                                                 <div className="d-flex justify-content-around">
                                                     <span>Laravel</span>{/*<span>Mongo DB</span>*/}
