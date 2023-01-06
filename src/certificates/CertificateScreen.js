@@ -13,6 +13,8 @@ import cert7 from  './cert_7.png';
 import cert8 from  './cert_8.png';
 import cert9 from  './cert_9.png';
 import cert10 from  './cert_10.png';
+import cert12 from  './cert_12.png';
+import cert13 from  './cert_13.png';
 import cert11 from  './cert_11.png';
 
 function CertificateScreen(){
@@ -89,6 +91,42 @@ function CertificateScreen(){
                                             </div>
                                             <div className="modal-footer w-100">
                                                 <h6 className={'m-auto text-bold'}>Keeping Yourself Safe Online (Baobab)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="p-3"> <img src={cert12} className={'w-100'} type="button" data-toggle="modal" data-target="#exampleModal12"
+                                                       data-whatever="@mdo"/>
+                                <div className="modal fade" id="exampleModal12" tabIndex="-1" aria-labelledby="exampleModalLabel"
+                                     aria-hidden="true">
+                                    <div className="modal-dialog modal-lg">
+                                        <div className="modal-content">
+                                            <div className="modal-body">
+                                                <img src={cert12} className={'w-100'}/>
+                                            </div>
+                                            <div className="modal-footer w-100">
+                                                <h6 className={'m-auto text-bold'}>Strategies for Successful Online Learning (Baobab)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="p-3"> <img src={cert13} className={'w-100'} type="button" data-toggle="modal" data-target="#exampleModal13"
+                                                       data-whatever="@mdo"/>
+                                <div className="modal fade" id="exampleModal13" tabIndex="-1" aria-labelledby="exampleModalLabel"
+                                     aria-hidden="true">
+                                    <div className="modal-dialog modal-lg">
+                                        <div className="modal-content">
+                                            <div className="modal-body">
+                                                <img src={cert13} className={'w-100'}/>
+                                            </div>
+                                            <div className="modal-footer w-100">
+                                                <h6 className={'m-auto text-bold'}>How to use Story Telling in Social Media (Baobab)</h6>
                                             </div>
                                         </div>
                                     </div>
