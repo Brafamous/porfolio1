@@ -400,13 +400,17 @@ function HomeScreen(){
                 <div className="hr-short"></div>
             </div>
             <section className="container w-100">
-                <h2 className="greeting_headline">GitHub Lane</h2>
+                <h2 className="greeting_headline">Articles</h2>
                 <div className="container">
                     <p className="description-p ">
-                        Checkout my published undergraduate thesis : <a href={'https://ieeexplore.ieee.org/document/9905329'}
-                                                         className={'text-theme text-decoration-none'}>SkyLine</a><br/>
-                        My GitHub Profile : <a href={'https://github.com/Brafamous'}
-                                               className={'text-theme text-decoration-none'}>Profile</a>
+                        <a href={'https://ieeexplore.ieee.org/document/9905329'}
+                                                         className={'text-theme text-decoration-none'}>IEEE Paper</a><br/>
+                        <a href={'https://internationalexperience.utoronto.ca/global-experiences/global-scholarships/mastercard-foundation-scholars/'}
+                                               className={'text-theme text-decoration-none'}> 2023 MCF Scholars @ U of T</a> <br/>
+                                               <a href={'https://discover.bme.utoronto.ca/bme-welcomes-2022-mastercard-scholar-cohort/'}
+                                                         className={'text-theme text-decoration-none'}>BME @ U of T</a> <br/>
+                        <a href={'https://africademics.com/2020/11/02/scholarship-success-stories-famous-ghanyo-tay/'}
+                                                         className={'text-theme text-decoration-none'}>Africademics</a>
                     </p>
                 </div>
             </section>
