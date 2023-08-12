@@ -392,7 +392,7 @@ function HomeScreen(){
                      <br/>
                     
                      With two years of hands-on experience, I excel in HTML, CSS, Python, MATLAB, and tools
-                    like COMSOL Multiphysics, Fusion 360, and Adobe Photoshop.My expertise lies in crafting intelligent 
+                    like COMSOL Multiphysics, Fusion 360, and Adobe Photoshop. My expertise lies in crafting intelligent 
                     data analyses, predictive models, and deep learning algorithms tailored for healthcare applications.
                      Clear communication is key to my approach, enabling effective collaboration with clients and teams. <br/>
                      <br/>
