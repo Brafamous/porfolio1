@@ -33,14 +33,18 @@ function HomeScreen(){
                                 <a className="nav-link" href="/#projects">Projects <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href={'/#me'}>About</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="/#technologies">Technologies</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href={'/certs'}>Certificates and Awards</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={'/#me'}>About</a>
+                                <a className="nav-link" href={'/#articles'}>Articles</a>
                             </li>
+                            
                         </ul>
 
                     </div>
@@ -99,19 +103,22 @@ function HomeScreen(){
                 <div className="rd-container">
                     <div className="row">
                         <div className="col-md-6">
-                            <a href="https://aiveslab.org" className={'text-decoration-none'}>
+                            <a href="https://github.com/Brafamous/Brain-Tumor-Detection" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card card-bg-theme">
                                             <img className="card-img-top" src={project0Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
-                                                <h5 className="card-title text-center">AivesLAB Foundation</h5>
+                                                <h5 className="card-title text-center">Brain Tumor Detection Using Deep Learning (CNN)</h5>
                                                 <hr className="hr"/>
-                                                <p className="card-text text-justify">Working on a project with the goal of making African Educational Info-Systems <strong>free</strong> for all
+                                                <p className="card-text text-justify">The Brain Tumor Detection Project is an artificial 
+                                                intelligence project designed to detect the presence of brain tumors in medical images such
+                                                as MRI scans. This project utilizes deep learning techniques to analyze the images and classify
+                                                them as either having a tumor or being tumor-free. Read More...
                                                 <br/><br/></p>
                                                 <div className="d-flex justify-content-around">
-                                                    <span>Laravel</span>{/*<span>Mongo DB</span>*/}
+                                                    <span>TensorFlow</span><span>OpenCV</span><span>Keras</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -395,6 +402,7 @@ function HomeScreen(){
 
                     </p>
                 </div>
+            <section className="container bio" id={'articles'}></section>
             </section>
             <div className="container">
                 <div className="hr-short"></div>
