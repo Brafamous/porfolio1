@@ -1,21 +1,21 @@
 import React from "react";
 import logo from '../images/logo.png'
-import cert0 from  './cert_0.png';
-import cert01 from  './cert_01.png';
-import cert02 from  './cert_02.png';
-import cert1 from  './cert_1.png';
+import cert0 from  './cert_8.png';
+import cert01 from  './cert_11.png';
+import cert02 from  './cert_13.png';
+import cert1 from  './cert_0.png';
 import cert2 from  './cert_2.jpg';
-import cert3 from  './cert_3.jpg';
+import cert3 from  './cert_02.png';
 import cert4 from  './cert_4.jpg';
 import cert5 from  './cert_5.jpg';
-import cert6 from  './cert_6.png';
+import cert6 from  './cert_01.png';
 import cert7 from  './cert_7.png';
-import cert8 from  './cert_8.png';
+import cert8 from  './cert_1.png';
 import cert9 from  './cert_9.png';
-import cert10 from  './cert_10.png';
+import cert10 from  './cert_3.jpg';
 import cert12 from  './cert_12.png';
-import cert13 from  './cert_13.png';
-import cert11 from  './cert_11.png';
+import cert13 from  './cert_10.png';
+import cert11 from  './cert_6.png';
 
 function CertificateScreen(){
     return (

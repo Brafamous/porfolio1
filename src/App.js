@@ -36,16 +36,16 @@ function HomeScreen(){
                                 <a className="nav-link" href="/#technologies">Technologies</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={'/certs'}>Certificates</a>
+                                <a className="nav-link" href={'/certs'}>Certificates and Awards</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={'/#me'}>Me</a>
+                                <a className="nav-link" href={'/#me'}>About</a>
                             </li>
                         </ul>
 
                     </div>
                     <div className=""><a
-                        href="https://github.com/Robert-Doe"
+                        href="https://github.com/Brafamous"
                         className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                         <svg stroke="#f90" fill="white" strokeWidth="0" viewBox="0 0 1024 1024"
                              height="2rem"
@@ -53,7 +53,7 @@ function HomeScreen(){
                             <path
                                 d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
                         </svg>
-                    </a><a href="https://www.instagram.com/bob_cumulus"
+                    </a><a href="https://www.instagram.com/famous.gtay/"
                            className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                         <svg stroke="#fff" fill="#fff" strokeWidth="0" viewBox="0 0 1024 1024"
                              height="2rem"
@@ -61,7 +61,7 @@ function HomeScreen(){
                             <path
                                 d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z"></path>
                         </svg>
-                    </a><a href="https://www.linkedin.com/in/robert-doe/"
+                    </a><a href="https://www.linkedin.com/in/fgtay/"
                            className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                         <svg stroke="currentColor" fill="#fff" strokeWidth="0" viewBox="0 0 1024 1024"
                              height="2rem"
@@ -77,10 +77,10 @@ function HomeScreen(){
                     <div className="row intro-box">
                         <div className="col-md-9">
                             <section className={'container'}>
-                                <h2 className={'greeting_headline'}>Hi there! <br/>I'm Robert Doe</h2>
+                                <h2 className={'greeting_headline'}>Welcome! <br/>I'm Famous G. Tay</h2>
                                 <div className="row">
-                                    <p className="col-md-9 description-p"> A software developer with a dense background
-                                        in Web Security and Machine Learning research
+                                    <p className="col-md-9 description-p"> Passionate Biomedical Engineer deeply engrossed in the realms of Machine Learning and Deep Learning.<br/>
+                                    Robust understanding of ISO 13485 | ISO 14971 | IEC 60601 | IEC 62304.
                                     </p>
                                 </div>
                             </section>
@@ -288,29 +288,27 @@ function HomeScreen(){
                 <h2 className="greeting_headline">Technologies</h2>
                 <div className="container">
                     <p className="description-p ">
-                        I've worked with a range of technologies, from web-apps to mobile-apps to machine-learning
-                        technologies
-                        and I've worked with a variety of languages.
+                    Here are a few technologies I’ve been working with recently:
                     </p>
 
                     <div className="row ">
                         <div className="col-md-4">
                         <svg width="3rem" height="3rem" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M500.8 766.4c8 4.8 11.2 14.4 6.4 22.4s-14.4 11.2-22.4 6.4l-176-96c-8-4.8-11.2-14.4-6.4-22.4 4.8-8 14.4-11.2 22.4-6.4l176 96z" fill="white" /><path d="M652.8 460.8v-32c57.6 0 86.4 89.6 64 188.8-22.4 96-134.4 179.2-224 179.2v-32c75.2 0 174.4-73.6 192-155.2 19.2-81.6-3.2-148.8-32-148.8zM316.8 908.8h352c9.6 0 16 6.4 16 16s-6.4 16-16 16h-352c-9.6 0-16-6.4-16-16s6.4-16 16-16z" fill="white" /><path d="M652.8 94.4c46.4 27.2 62.4 84.8 35.2 131.2L528 502.4l-166.4-96 160-276.8c25.6-46.4 84.8-60.8 131.2-35.2z" fill="white" /><path d="M336 428.8c-9.6-6.4-14.4-17.6-11.2-24s16-9.6 27.2-3.2l184 107.2c9.6 6.4 14.4 17.6 11.2 24-4.8 8-16 9.6-27.2 3.2L336 428.8z" fill="#050D42" /><path d="M358.4 443.2l139.2 80-24 41.6c-4.8 8-14.4 9.6-22.4 6.4l-110.4-64c-8-4.8-9.6-14.4-6.4-22.4l24-41.6z" fill="#2F4BFF" /><path d="M652.8 444.8m-48 0a48 48 0 1 0 96 0 48 48 0 1 0-96 0Z" fill="#2F4BFF" /><path d="M476.8 828.8v96h32v-96z" fill="#050D42" /><path d="M492.8 780.8m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z" fill="white" /></svg>
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
-                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Front-End</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>React.js,
-                                Next.js, and Bootstrap</p></div>
+                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">ML & DL</h4><p
+                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ"> TensorFlow | Keras | Scikit-Learn | PyTorch  <br/>
+                                OpenCV | Flask </p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
-                                 viewBox="0 0 32 32" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M13.249 6.953c-2.833 0.351-4.585 1.184-4.794 2.293-0.038 0.18-0.038 1.184-0.019 2.236 0.038 1.573 0.066 1.971 0.208 2.226 0.152 0.294 0.152 0.341 0 0.739-0.142 0.369-0.152 0.654-0.104 2.188 0.038 0.966 0.114 1.904 0.18 2.075 0.085 0.237 0.085 0.369 0 0.559-0.142 0.303-0.152 2.975-0.019 3.78 0.057 0.379 0.18 0.673 0.36 0.9 0.843 1.052 3.079 1.677 6.366 1.781 4.083 0.133 7.2-0.635 7.939-1.952 0.199-0.341 0.208-0.493 0.208-2.226 0-1.468-0.028-1.933-0.151-2.226-0.123-0.313-0.123-0.417-0.028-0.597 0.085-0.161 0.114-0.71 0.095-2.018-0.019-1.876-0.047-2.151-0.256-2.454-0.104-0.152-0.095-0.227 0.019-0.464 0.123-0.227 0.152-0.644 0.142-2.302-0.009-1.175-0.057-2.15-0.123-2.33-0.256-0.786-1.393-1.506-2.937-1.876-1.895-0.445-4.964-0.587-7.086-0.332zM13.685 7.844c-0.028 0.047 0.502 0.057 1.213 0.028 1.052-0.038 3.827 0.123 3.733 0.218-0.019 0.019-0.445 0.076-0.957 0.133-0.521 0.057-1.023 0.152-1.137 0.208-0.189 0.104-0.189 0.114-0.028 0.237 0.161 0.114 0.151 0.123-0.095 0.18-0.777 0.161-1.279 0.36-1.459 0.587-0.455 0.578-0.057 1.156 0.919 1.364 0.739 0.152 3.657 0.057 4.462-0.142 0.891-0.227 1.345-0.483 1.345-0.767 0-0.388-0.569-0.673-1.942-0.957-0.73-0.142-0.265-0.171 0.644-0.028 0.9 0.142 1.63 0.417 1.866 0.72 0.171 0.227 0.189 0.379 0.189 2.027 0 2.037 0.019 1.989-0.909 2.416-1.345 0.635-3.534 0.872-7.333 0.805-0.72-0.019-0.777-0.028-0.578-0.142s0.133-0.133-0.663-0.18c-1.108-0.066-2.075-0.341-2.529-0.701-0.55-0.436-0.9-1.222-0.947-2.15-0.047-0.881 0.123-1.895 0.303-1.829 0.066 0.028 0.208-0.133 0.341-0.369 0.379-0.72 1.203-1.213 2.558-1.554 0.805-0.199 1.080-0.227 1.004-0.104zM10.123 14.949c0 0.388 0.189 0.549 0.928 0.767 2.672 0.805 8.697 0.701 10.421-0.18 0.351-0.18 0.398-0.237 0.398-0.53 0-0.36 0.095-0.417 0.322-0.18 0.18 0.18 0.171 0.019 0.151 1.98l-0.009 1.611-0.275 0.256c-0.587 0.54-2.624 0.966-5.116 1.080-3.088 0.142-6.622-0.464-7.162-1.232-0.104-0.152-0.133-0.559-0.133-1.847 0-1.402 0.019-1.677 0.161-1.828 0.218-0.246 0.313-0.208 0.313 0.104zM10.407 20.368c0.815 0.597 4.86 0.995 7.598 0.758 1.506-0.133 2.804-0.379 3.429-0.654 0.417-0.189 0.436-0.218 0.436-0.578 0-0.265 0.038-0.388 0.133-0.388 0.322 0 0.369 0.256 0.35 1.999-0.009 0.947-0.047 1.772-0.066 1.838-0.076 0.189-0.881 0.587-1.554 0.758-1.146 0.303-2.217 0.436-3.932 0.493-3.164 0.104-6.139-0.379-6.944-1.127-0.199-0.199-0.208-0.265-0.208-1.914 0-1.639 0.009-1.715 0.218-1.933l0.208-0.227 0.047 0.407c0.038 0.284 0.114 0.445 0.284 0.568z"></path>
+                            viewBox="0 0 32 32" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                            d="M13.249 6.953c-2.833 0.351-4.585 1.184-4.794 2.293-0.038 0.18-0.038 1.184-0.019 2.236 0.038 1.573 0.066 1.971 0.208 2.226 0.152 0.294 0.152 0.341 0 0.739-0.142 0.369-0.152 0.654-0.104 2.188 0.038 0.966 0.114 1.904 0.18 2.075 0.085 0.237 0.085 0.369 0 0.559-0.142 0.303-0.152 2.975-0.019 3.78 0.057 0.379 0.18 0.673 0.36 0.9 0.843 1.052 3.079 1.677 6.366 1.781 4.083 0.133 7.2-0.635 7.939-1.952 0.199-0.341 0.208-0.493 0.208-2.226 0-1.468-0.028-1.933-0.151-2.226-0.123-0.313-0.123-0.417-0.028-0.597 0.085-0.161 0.114-0.71 0.095-2.018-0.019-1.876-0.047-2.151-0.256-2.454-0.104-0.152-0.095-0.227 0.019-0.464 0.123-0.227 0.152-0.644 0.142-2.302-0.009-1.175-0.057-2.15-0.123-2.33-0.256-0.786-1.393-1.506-2.937-1.876-1.895-0.445-4.964-0.587-7.086-0.332zM13.685 7.844c-0.028 0.047 0.502 0.057 1.213 0.028 1.052-0.038 3.827 0.123 3.733 0.218-0.019 0.019-0.445 0.076-0.957 0.133-0.521 0.057-1.023 0.152-1.137 0.208-0.189 0.104-0.189 0.114-0.028 0.237 0.161 0.114 0.151 0.123-0.095 0.18-0.777 0.161-1.279 0.36-1.459 0.587-0.455 0.578-0.057 1.156 0.919 1.364 0.739 0.152 3.657 0.057 4.462-0.142 0.891-0.227 1.345-0.483 1.345-0.767 0-0.388-0.569-0.673-1.942-0.957-0.73-0.142-0.265-0.171 0.644-0.028 0.9 0.142 1.63 0.417 1.866 0.72 0.171 0.227 0.189 0.379 0.189 2.027 0 2.037 0.019 1.989-0.909 2.416-1.345 0.635-3.534 0.872-7.333 0.805-0.72-0.019-0.777-0.028-0.578-0.142s0.133-0.133-0.663-0.18c-1.108-0.066-2.075-0.341-2.529-0.701-0.55-0.436-0.9-1.222-0.947-2.15-0.047-0.881 0.123-1.895 0.303-1.829 0.066 0.028 0.208-0.133 0.341-0.369 0.379-0.72 1.203-1.213 2.558-1.554 0.805-0.199 1.080-0.227 1.004-0.104zM10.123 14.949c0 0.388 0.189 0.549 0.928 0.767 2.672 0.805 8.697 0.701 10.421-0.18 0.351-0.18 0.398-0.237 0.398-0.53 0-0.36 0.095-0.417 0.322-0.18 0.18 0.18 0.171 0.019 0.151 1.98l-0.009 1.611-0.275 0.256c-0.587 0.54-2.624 0.966-5.116 1.080-3.088 0.142-6.622-0.464-7.162-1.232-0.104-0.152-0.133-0.559-0.133-1.847 0-1.402 0.019-1.677 0.161-1.828 0.218-0.246 0.313-0.208 0.313 0.104zM10.407 20.368c0.815 0.597 4.86 0.995 7.598 0.758 1.506-0.133 2.804-0.379 3.429-0.654 0.417-0.189 0.436-0.218 0.436-0.578 0-0.265 0.038-0.388 0.133-0.388 0.322 0 0.369 0.256 0.35 1.999-0.009 0.947-0.047 1.772-0.066 1.838-0.076 0.189-0.881 0.587-1.554 0.758-1.146 0.303-2.217 0.436-3.932 0.493-3.164 0.104-6.139-0.379-6.944-1.127-0.199-0.199-0.208-0.265-0.208-1.914 0-1.639 0.009-1.715 0.218-1.933l0.208-0.227 0.047 0.407c0.038 0.284 0.114 0.445 0.284 0.568z"></path>
                             </svg>
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
-                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Back-End</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with <br/>Node,
-                                Php and Databases including Relational and Non-relational (Firebase)</p></div>
+                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Data Science</h4><p
+                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ"> Pandas | Numpy Matplotlib | Scipy<br/>
+                                Seaborn | Plotly</p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" strokeWidth="0" version="1.1"
@@ -323,9 +321,10 @@ function HomeScreen(){
                             </svg>
 
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
-                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">UI/UX</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with Figma
-                                and Adobe XD</p></div>
+                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Languages</h4><p
+                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Python | MATLAB  <br/>
+                                HTML | CSS
+                                </p></div>
                         </div>
                     </div>
                     <div className="row">
@@ -353,9 +352,11 @@ function HomeScreen(){
                                 </g>
                             </svg>
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
-                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Mobile Apps</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with
-                                Flutter and Andriod app dev.</p></div>
+                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Medical Device <br/> Standards</h4><p
+                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ"> ISO 13485 | ISO 14971 ISO 14155 |
+                                IEC 60601 
+                                IEC 62304
+                               </p></div>
                         </div>
                         <div className="col-md-4">
                             <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
@@ -364,21 +365,11 @@ function HomeScreen(){
                                     d="M15.334 14.023c0 0 0-2.972 2.972-2.972h8.917c0 0 0 2.972-2.972 2.972h-8.917zM15.334 17.821c0 0 0-2.972 2.972-2.972h4.459c0 0 0 2.972-2.972 2.972h-4.459zM15.334 21.619c0 0 0-2.972 2.972-2.972h1.486c0 0 0 2.972-2.972 2.972h-1.486zM14.336 19.3v2.371h-9.559l6.158-8.399h-5.286v-2.371h9.972l-6.129 8.4z"></path>
                             </svg>
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
-                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Scripting</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with
-                                bash, batch and python</p></div>
+                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">Others</h4><p
+                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">COMSOL Multiphysics  Fusion 360 | Cadence
+                                </p></div>
                         </div>
-                        <div className="col-md-4">
-                            <svg stroke="#fff" fill="#fff" strokeWidth="0" version="1.1"
-                                 viewBox="0 0 32 32" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M15.334 14.023c0 0 0-2.972 2.972-2.972h8.917c0 0 0 2.972-2.972 2.972h-8.917zM15.334 17.821c0 0 0-2.972 2.972-2.972h4.459c0 0 0 2.972-2.972 2.972h-4.459zM15.334 21.619c0 0 0-2.972 2.972-2.972h1.486c0 0 0 2.972-2.972 2.972h-1.486zM14.336 19.3v2.371h-9.559l6.158-8.399h-5.286v-2.371h9.972l-6.129 8.4z"></path>
-                            </svg>
-                            <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
-                                className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">ML</h4><p
-                                className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ">Experience with
-                                Numpy, Scipy, Pandas, Tensorflow</p></div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
@@ -386,11 +377,22 @@ function HomeScreen(){
                 <div className="hr-short"></div>
             </div>
             <section className="container bio" id={'me'}>
-                <h2 className="greeting_headline">Bio</h2>
+                <h2 className="greeting_headline">About Me</h2>
                 <div className="container">
                     <p className="description-p ">
-                        I'm a Software Developer: Mobile App Developer, Machine Learning engineer, and Fullstack Website
-                        Developer
+                    I'm Famous Ghanyo Tay, a Biomedical Engineering master's student at the University of Toronto,
+                     deeply passionate about the application of Artificial Intelligence in healthcare. <br/>
+                     <br/>
+                    
+                     With two years of hands-on experience, I excel in HTML, CSS, Python, MATLAB, and tools
+                    like COMSOL Multiphysics, Fusion 360, and Adobe Photoshop.My expertise lies in crafting intelligent 
+                    data analyses, predictive models, and deep learning algorithms tailored for healthcare applications.
+                     Clear communication is key to my approach, enabling effective collaboration with clients and teams. <br/>
+                     <br/>
+                     Beyond school work, my interests encompass cooking, reading, volunteering, and exploring new technologies. 
+                     These activities fuel my creativity, bring balance to my life, and inspire fresh perspectives in my professional pursuits.
+
+
                     </p>
                 </div>
             </section>
@@ -401,9 +403,9 @@ function HomeScreen(){
                 <h2 className="greeting_headline">GitHub Lane</h2>
                 <div className="container">
                     <p className="description-p ">
-                        Checkout my git towers here : <a href={'https://skyline.github.com/Robert-Doe/2022'}
+                        Checkout my published undergraduate thesis : <a href={'https://ieeexplore.ieee.org/document/9905329'}
                                                          className={'text-theme text-decoration-none'}>SkyLine</a><br/>
-                        My GitHub Profile : <a href={'https://github.com/Robert-Doe'}
+                        My GitHub Profile : <a href={'https://github.com/Brafamous'}
                                                className={'text-theme text-decoration-none'}>Profile</a>
                     </p>
                 </div>
@@ -413,11 +415,9 @@ function HomeScreen(){
                 <ul className="d-flex justify-content-start">
                     <div className="row text-small">
                         <div className="col-md-6"><h4
-                            className="call-header">Call</h4><a href="tel:+233271302702" className="call-link">+233
-                            (271) 302-702</a></div>
-                        <div className="col-md-6"><h4
                             className="email-header">Email</h4><a
-                            href="mailto:robertdoe@codeden.org" className="email-link">robertdoe@codeden.org</a></div>
+                            href="mailto:robertdoe@codeden.org" className="email-link">famousghanyotay@gmail.com</a>
+                        </div>
                     </div>
 
                 </ul>
