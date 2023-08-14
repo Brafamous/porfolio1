@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1ba7d7c.css",
-    "main.js": "/static/js/main.45452351.js",
+    "main.css": "/static/css/main.f0de49d6.css",
+    "main.js": "/static/js/main.b089f5e0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cert_8.png": "/static/media/cert_8.060a03d3c83bae5748ae.png",
     "static/media/cert_01.png": "/static/media/cert_01.fa4c92694dae359a5386.png",
@@ -26,16 +26,17 @@
     "static/media/project_6.jpg": "/static/media/project_6.cdd7dcee762a77788006.jpg",
     "static/media/data-care-transport-services.png": "/static/media/data-care-transport-services.3e137185757e05c9c849.png",
     "static/media/project_3.png": "/static/media/project_3.29e48b24f1cfe12736e2.png",
+    "static/media/fam.jpg": "/static/media/fam.2c645f1b089333c0ceb6.jpg",
     "static/media/project_1.png": "/static/media/project_1.f185fd0c2771fc0af5f4.png",
     "static/media/project_4.png": "/static/media/project_4.f4780caacb3c7469d222.png",
     "static/media/logo.png": "/static/media/logo.174a53dbecd10969cbb0.png",
     "index.html": "/index.html",
-    "main.a1ba7d7c.css.map": "/static/css/main.a1ba7d7c.css.map",
-    "main.45452351.js.map": "/static/js/main.45452351.js.map",
+    "main.f0de49d6.css.map": "/static/css/main.f0de49d6.css.map",
+    "main.b089f5e0.js.map": "/static/js/main.b089f5e0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1ba7d7c.css",
-    "static/js/main.45452351.js"
+    "static/css/main.f0de49d6.css",
+    "static/js/main.b089f5e0.js"
   ]
 }

@@ -39,10 +39,10 @@ function CertificateScreen(){
                                 <a className="nav-link" href="/#technologies">Technologies</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={'/certs'}>Certificates</a>
+                                <a className="nav-link" href={'/certs'}>Awards</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={'/#me'}>Me</a>
+                                <a className="nav-link" href={'/#me'}> About Me</a>
                             </li>
                         </ul>
 
@@ -76,7 +76,7 @@ function CertificateScreen(){
                 </div>
             </nav>
             <section className={'container'}>
-                <h3 className={'text-bold text-light'}>Certificates</h3>
+                <h3 className={'text-bold text-light'}>Certificates and Awards</h3>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3">
@@ -90,7 +90,7 @@ function CertificateScreen(){
                                                 <img src={cert01} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Keeping Yourself Safe Online (Baobab)</h6>
+                                                <h6 className={'m-auto text-bold'}>Coursera Certificate (Deep Learning)</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -108,7 +108,7 @@ function CertificateScreen(){
                                                 <img src={cert12} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Strategies for Successful Online Learning (Baobab)</h6>
+                                                <h6 className={'m-auto text-bold'}>Coursera Certificate (ML: Regression & Classification)</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -126,7 +126,7 @@ function CertificateScreen(){
                                                 <img src={cert13} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>How to use Story Telling in Social Media (Baobab)</h6>
+                                                <h6 className={'m-auto text-bold'}>Programming for Everybody (Python)</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@ function CertificateScreen(){
                                                 <img src={cert0} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Interviewing Skills (Baobab)</h6>
+                                                <h6 className={'m-auto text-bold'}>Ghana Tech Lab Certificate</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -162,7 +162,7 @@ function CertificateScreen(){
                                                 <img src={cert02} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>What is transformative Leadership? (Baobab)</h6>
+                                                <h6 className={'m-auto text-bold'}>Introduction to Git and Github</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -180,7 +180,7 @@ function CertificateScreen(){
                                                 <img src={cert9} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Arizona State University, Python Workshop</h6>
+                                                <h6 className={'m-auto text-bold'}>Machine Learning with Python</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -198,7 +198,7 @@ function CertificateScreen(){
                                                 <img src={cert7} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer">
-                                                <h6 className={'m-auto text-bold'}>Baobab, How to make a point in one minute or less</h6>
+                                                <h6 className={'m-auto text-bold'}>Leadership Training Workshop</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -216,7 +216,7 @@ function CertificateScreen(){
                                                 <img src={cert11} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                    <h5 className={'m-auto text-bold'}>How to write a CV/Resume</h5>
+                                                    <h5 className={'m-auto text-bold'}>Leadership Training Workshop</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -234,7 +234,7 @@ function CertificateScreen(){
                                                 <img src={cert10} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Google Africa Developer Scholar, 2020 [Mobile Web]</h6>
+                                                <h6 className={'m-auto text-bold'}>Best Male Scholar (MCF @ KNUST)</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -252,7 +252,7 @@ function CertificateScreen(){
                                             <img src={cert2} className={'w-100'}/>
                                         </div>
                                         <div className="modal-footer w-100">
-                                            <h6 className={'m-auto text-bold'}>ILF Leadership Seminar, Part I</h6>
+                                            <h6 className={'m-auto text-bold'}>Excellent Student Award</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +270,7 @@ function CertificateScreen(){
                                             <img src={cert4} className={'w-100'}/>
                                         </div>
                                         <div className="modal-footer w-100">
-                                            <h5 className={'m-auto text-bold'}>ILF Leadership Seminar, Part II</h5>
+                                            <h5 className={'m-auto text-bold'}>Summer Skill Training Certificate</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@ function CertificateScreen(){
                                                 <img src={cert3} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>ILF Leadership Seminar, Part III</h6>
+                                                <h6 className={'m-auto text-bold'}>Excellent Student Award 2021</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -306,7 +306,7 @@ function CertificateScreen(){
                                                 <img src={cert3} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>ILF Leadership Seminar, Part IV</h6>
+                                                <h6 className={'m-auto text-bold'}>Excellent Student Award 2021</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -324,7 +324,7 @@ function CertificateScreen(){
                                                 <img src={cert5} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Foundations of User Experience(UX) Design</h6>
+                                                <h6 className={'m-auto text-bold'}>Leadership Training Workshop</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -342,7 +342,7 @@ function CertificateScreen(){
                                                 <img src={cert8} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Huawei Certified Network Associate(HCNA)</h6>
+                                                <h6 className={'m-auto text-bold'}>Excellent Student Award 2018</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -360,7 +360,7 @@ function CertificateScreen(){
                                                 <img src={cert1} className={'w-100'}/>
                                             </div>
                                             <div className="modal-footer w-100">
-                                                <h6 className={'m-auto text-bold'}>Google Africa Developer Scholar, 2022 [Android Track]</h6>
+                                                <h6 className={'m-auto text-bold'}>Ghana Student Awards</h6>
                                             </div>
                                         </div>
                                     </div>
