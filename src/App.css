@@ -313,9 +313,11 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #07270b;
     font-family: 'Space Grotesk', sans-serif;
 }
+
+
 
 a.nav-link {
     color: #f90;
