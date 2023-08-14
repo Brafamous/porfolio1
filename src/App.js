@@ -105,7 +105,7 @@ function HomeScreen(){
                 <div className="rd-container">
                     <div className="row">
                         <div className="col-md-6">
-                            <a href="https://github.com/Brafamous/Brain-Tumor-Detection" className={'text-decoration-none'}>
+                            <a href="https://brafamous.github.io/Brain-Tumor-Detection/" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card card-bg-theme">
@@ -129,19 +129,19 @@ function HomeScreen(){
                             </a>
                         </div>
                         <div className="col-md-6">
-                            <a href="https://cariscaacademy.org/about-us/" className={'text-decoration-none'}>
+                            <a href="https://brafamous.github.io/Breadboard-Power-Supply-PCB-Design/" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card card-bg-theme">
                                             <img className="card-img-top" src={project5Img} alt=""
                                                  height={'200px'}/>
                                             <div className="card-body">
-                                                <h5 className="card-title text-center">CARISCA Academy</h5>
+                                                <h5 className="card-title text-center">Breadboard Power Supply PCB Design</h5>
                                                 <hr className="hr"/>
-                                                <p className="card-text text-justify">Part of the developer group
-                                                    working on this EdTech platform to educate stakeholders in the supply chain of Africa &nbsp; &nbsp; (KNUST - ASU - USAID)</p>
+                                                <p className="card-text text-justify">This project aims to provide a compact and efficient solution for powering electronic 
+                                                circuits directly on a breadboard. This was designed in KiCAD.</p>
                                                 <div className="d-flex justify-content-around">
-                                                    <span>Laravel</span>{/*<span>Mongo DB</span>*/}
+                                                    <span>KiCAD</span>{/*<span>Mongo DB</span>*/}
                                                 </div>
                                             </div>
                                         </div>
