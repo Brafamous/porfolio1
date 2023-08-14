@@ -335,7 +335,6 @@ p.description-p {
 .greeting_headline {
     overflow: hidden;
     white-space: nowrap;
-    border-right: 2px solid #000;
     animation: typing 3s steps(40) forwards;
   }
   
@@ -346,6 +345,11 @@ p.description-p {
     to {
       width: 100%;
     }
+  }
+  
+  .greeting_headline::after {
+    content: "";
+    display: none; /* Add this line to hide the cursor */
   }
   
   .description-p {
