@@ -149,6 +149,38 @@
     color: black;
 }
 
+.aliko-card {
+    position: relative;
+}
+.aliko-card img {
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.aliko-card .overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 90%;
+    height: 100%;
+    z-index: -1;
+    border: 5px solid #f90;
+    opacity: 0.5;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.aliko-card:hover img {
+    transform: translate(-20px, -20px);
+}
+
+.aliko-card:hover .overlay {
+    transform: translate(20px, 20px);
+    opacity: 1;
+}
+
 .hr {
     width: 50px;
     height: 3px;
@@ -283,7 +315,7 @@ a.nav-link {
 
 p.description-p {
     max-width: 800px;
-    font-size: 1.7em;
+    font-size: 1.2em;
     line-height: 40px;
     font-weight: 300;
     padding-bottom: 3.6rem;
@@ -337,7 +369,8 @@ p.description-p {
     }
 
     p.description-p {
-        font-size: 1.2em;
+        font-size: 0.8em;
+        line-height: 1.7rem;
     }
 
    /* .intro-box {

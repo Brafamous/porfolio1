@@ -7,6 +7,7 @@ import project3Img from './images/project_3.png'
 import project4Img from './images/project_4.png'
 import project5Img from './images/project_5.png'
 import project6Img from './images/project_6.jpg'
+import profileImg  from './images/fam.jpg'
 import React from "react";
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
@@ -39,7 +40,7 @@ function HomeScreen(){
                                 <a className="nav-link" href="/#technologies">Technologies</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={'/certs'}>Certificates and Awards</a>
+                                <a className="nav-link" href={'/certs'}>Awards</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href={'/#articles'}>Articles</a>
@@ -300,7 +301,10 @@ function HomeScreen(){
 
                     <div className="row ">
                         <div className="col-md-4">
-                        <svg width="3rem" height="3rem" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M500.8 766.4c8 4.8 11.2 14.4 6.4 22.4s-14.4 11.2-22.4 6.4l-176-96c-8-4.8-11.2-14.4-6.4-22.4 4.8-8 14.4-11.2 22.4-6.4l176 96z" fill="white" /><path d="M652.8 460.8v-32c57.6 0 86.4 89.6 64 188.8-22.4 96-134.4 179.2-224 179.2v-32c75.2 0 174.4-73.6 192-155.2 19.2-81.6-3.2-148.8-32-148.8zM316.8 908.8h352c9.6 0 16 6.4 16 16s-6.4 16-16 16h-352c-9.6 0-16-6.4-16-16s6.4-16 16-16z" fill="white" /><path d="M652.8 94.4c46.4 27.2 62.4 84.8 35.2 131.2L528 502.4l-166.4-96 160-276.8c25.6-46.4 84.8-60.8 131.2-35.2z" fill="white" /><path d="M336 428.8c-9.6-6.4-14.4-17.6-11.2-24s16-9.6 27.2-3.2l184 107.2c9.6 6.4 14.4 17.6 11.2 24-4.8 8-16 9.6-27.2 3.2L336 428.8z" fill="#050D42" /><path d="M358.4 443.2l139.2 80-24 41.6c-4.8 8-14.4 9.6-22.4 6.4l-110.4-64c-8-4.8-9.6-14.4-6.4-22.4l24-41.6z" fill="#2F4BFF" /><path d="M652.8 444.8m-48 0a48 48 0 1 0 96 0 48 48 0 1 0-96 0Z" fill="#2F4BFF" /><path d="M476.8 828.8v96h32v-96z" fill="#050D42" /><path d="M492.8 780.8m-64 0a64 64 0 1 0 128 0 64 64 0 1 0-128 0Z" fill="white" /></svg>
+                        <svg fill="white" width="3rem" height="3rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.5 9a3.49 3.49 0 0 0-3.45 3h-1.1a2.49 2.49 0 0 0-4.396-1.052L8.878 9.731l3.143-4.225a2.458 2.458 0 0 0 2.98-.019L17.339 8H16v1h3V6h-1v1.243l-2.336-2.512A2.473 2.473 0 0 0 16 3.5a2.5 2.5 0 0 0-5 0 2.474 2.474 0 0 0 .343 1.243L7.947 9.308 4.955 7.947a2.404 2.404 0 0 0-.161-1.438l3.704-1.385-.44 1.371.942.333L10 4 7.172 3l-.334.943 1.01.357-3.659 1.368a2.498 2.498 0 1 0-.682 4.117l2.085 2.688-2.053 2.76a2.5 2.5 0 1 0 .87 3.864l3.484 1.587-1.055.373.334.943L10 21l-1-2.828-.943.333.435 1.354-3.608-1.645A2.471 2.471 0 0 0 5 17.5a2.5 2.5 0 0 0-.058-.527l3.053-1.405 3.476 4.48a2.498 2.498 0 1 0 4.113.075L18 17.707V19h1v-3h-3v1h1.293l-2.416 2.416a2.466 2.466 0 0 0-2.667-.047l-3.283-4.23 2.554-1.176A2.494 2.494 0 0 0 15.95 13h1.1a3.493 3.493 0 1 0 3.45-4zm-7-7A1.5 1.5 0 1 1 12 3.5 1.502 1.502 0 0 1 13.5 2zm0 18a1.5 1.5 0 1 1-1.5 1.5 1.502 1.502 0 0 1 1.5-1.5zM1 7.5a1.5 1.5 0 1 1 2.457 1.145l-.144.112A1.496 1.496 0 0 1 1 7.5zm3.32 1.703a2.507 2.507 0 0 0 .264-.326l2.752 1.251-1.124 1.512zM2.5 19A1.5 1.5 0 1 1 4 17.5 1.502 1.502 0 0 1 2.5 19zm2.037-2.941a2.518 2.518 0 0 0-.193-.234l1.885-2.532 1.136 1.464zm3.76-1.731L6.849 12.46l1.42-1.908L11.1 11.84a2.29 2.29 0 0 0-.033 1.213zM13.5 14a1.5 1.5 0 1 1 1.5-1.5 1.502 1.502 0 0 1-1.5 1.5zm7 1a2.5 2.5 0 1 1 2.5-2.5 2.502 2.502 0 0 1-2.5 2.5zm1.5-2.5a1.5 1.5 0 1 1-1.5-1.5 1.502 1.502 0 0 1 1.5 1.5z"/>
+                        <path fill='none' d="M0 0h24v24H0z"/>
+                        </svg>
                             <div className="TechnologiesStyles__ListContainer-sc-1ccvow3-3 technology-p"><h4
                                 className="TechnologiesStyles__ListTitle-sc-1ccvow3-4 gRmPxD">ML & DL</h4><p
                                 className="TechnologiesStyles__ListParagraph-sc-1ccvow3-5 fXnhlQ"> TensorFlow | Keras | Scikit-Learn | PyTorch  <br/>
@@ -383,10 +387,23 @@ function HomeScreen(){
             <div className="container">
                 <div className="hr-short"></div>
             </div>
+
+
+           
+
+
+
+
+
+
+
+            
             <section className="container bio" id={'me'}>
                 <h2 className="greeting_headline">About Me</h2>
                 <div className="container">
-                    <p className="description-p ">
+                    <div className="row">
+                        <div className={'col-md-7'}>
+                        <p className="description-p ">
                     I'm Famous Ghanyo Tay, a Biomedical Engineering master's student at the University of Toronto,
                      deeply passionate about the application of Artificial Intelligence in healthcare. <br/>
                      <br/>
@@ -401,7 +418,19 @@ function HomeScreen(){
 
 
                     </p>
+
+
+                            
+                        </div>
+                        <div className="col-md-5">
+                            <div className="aliko-card">
+                                <img src={profileImg} alt="Your Image"/>
+                                <div className="overlay"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
             <section className="container bio" id={'articles'}></section>
             </section>
             <div className="container">
