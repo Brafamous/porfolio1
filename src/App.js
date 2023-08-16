@@ -117,8 +117,9 @@ function HomeScreen(){
                                                 <p className="card-text text-justify">The Brain Tumor Detection Project is an artificial 
                                                 intelligence project designed to detect the presence of brain tumors in medical images such
                                                 as MRI scans. This project utilizes deep learning techniques to analyze the images and classify
-                                                them as either having a tumor or being tumor-free. Read More...
-                                                <br/><br/></p>
+                                                them as either having a tumor or being tumor-free. <br/>
+                                                Read More...
+                                                <br/></p>
                                                 <div className="d-flex justify-content-around">
                                                     <span>TensorFlow</span><span>OpenCV</span><span>Keras</span>
                                                 </div>
@@ -139,7 +140,9 @@ function HomeScreen(){
                                                 <h5 className="card-title text-center">Breadboard Power Supply PCB Design</h5>
                                                 <hr className="hr"/>
                                                 <p className="card-text text-justify">This project aims to provide a compact and efficient solution for powering electronic 
-                                                circuits directly on a breadboard. This was designed in KiCAD.</p>
+                                                circuits directly on a breadboard. This was designed in KiCAD.<br/>
+                                                Read More...
+                                                </p>
                                                 <div className="d-flex justify-content-around">
                                                     <span>KiCAD</span>{/*<span>Mongo DB</span>*/}
                                                 </div>
@@ -150,7 +153,7 @@ function HomeScreen(){
                             </a>
                         </div>
                         <div className="col-md-6">
-                            <a href="https://www.codeden.org" className={'text-decoration-none'}>
+                            <a href="https://brafamous.github.io/Diabetes-Prediction/" className={'text-decoration-none'}>
                                 <div className="container py-5">
                                     <div className="container py-5">
                                         <div className="card card-bg-theme">
@@ -161,7 +164,9 @@ function HomeScreen(){
                                                 <hr className="hr"/>
                                                 <p className="card-text text-justify">The Machine Learning Model for Diabetes Prediction project aims to develop an
                                                  intelligent system that can accurately predict the likelihood of an individual developing diabetes. In this project, four popular
-                                                  algorithms are used and the best one is chosen.</p>
+                                                  algorithms are used and the best one is chosen. <br/>
+                                                  Read More...
+                                                  </p>
                                                 <div className="d-flex justify-content-around">
                                                     <span>Seaborn</span><span>Pandas</span>Sklearn<span></span>
                                                 </div>
