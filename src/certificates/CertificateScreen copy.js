@@ -48,7 +48,7 @@ function CertificateScreen(){
 
                     </div>
                     <div className=""><a
-                        href="https://github.com/Robert-Doe"
+                        href="https://github.com/Brafamous"
                         className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                         <svg stroke="#f90" fill="white" stroke-width="0" viewBox="0 0 1024 1024"
                              height="2rem"

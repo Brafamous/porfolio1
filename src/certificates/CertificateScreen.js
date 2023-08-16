@@ -16,6 +16,7 @@ import cert10 from  './cert_3.jpg';
 import cert12 from  './cert_12.png';
 import cert13 from  './cert_10.png';
 import cert11 from  './cert_6.png';
+import cert14 from  './MCF_EC.png';
 
 function CertificateScreen(){
     return (
@@ -48,7 +49,7 @@ function CertificateScreen(){
 
                     </div>
                     <div className=""><a
-                        href="https://github.com/Robert-Doe"
+                        href="https://github.com/Brafamous"
                         className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                         <svg stroke="#f90" fill="white" stroke-width="0" viewBox="0 0 1024 1024"
                              height="2rem"
@@ -56,7 +57,7 @@ function CertificateScreen(){
                             <path
                                 d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
                         </svg>
-                    </a><a href="https://www.instagram.com/bob_cumulus"
+                    </a><a href="https://www.instagram.com/famous.gtay/"
                            className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                         <svg stroke="#fff" fill="#fff" stroke-width="0" viewBox="0 0 1024 1024"
                              height="2rem"
@@ -64,7 +65,7 @@ function CertificateScreen(){
                             <path
                                 d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z"></path>
                         </svg>
-                    </a><a href="https://www.linkedin.com/in/robert-doe/"
+                    </a><a href="https://www.linkedin.com/in/fgtay/"
                            className="HeaderStyles__SocialIcons-sc-1rpswi9-8 bZrquz">
                         <svg stroke="currentColor" fill="#fff" stroke-width="0" viewBox="0 0 1024 1024"
                              height="2rem"
@@ -127,6 +128,24 @@ function CertificateScreen(){
                                             </div>
                                             <div className="modal-footer w-100">
                                                 <h6 className={'m-auto text-bold'}>Programming for Everybody (Python)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="p-3"> <img src={cert14} className={'w-100'} type="button" data-toggle="modal" data-target="#exampleModal14"
+                                                       data-whatever="@mdo"/>
+                                <div className="modal fade" id="exampleModal14" tabIndex="-1" aria-labelledby="exampleModalLabel"
+                                     aria-hidden="true">
+                                    <div className="modal-dialog modal-lg">
+                                        <div className="modal-content">
+                                            <div className="modal-body">
+                                                <img src={cert1} className={'w-100'}/>
+                                            </div>
+                                            <div className="modal-footer w-100">
+                                                <h6 className={'m-auto text-bold'}>MCF Certificate of Honour</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -371,6 +390,8 @@ function CertificateScreen(){
                 </div>
             </section>
         </section>
+
+        
     )
 }
 
